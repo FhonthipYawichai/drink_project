@@ -1,1 +1,15 @@
+body {
+  padding: 0;
+}
 
+/* .table {
+  background-color: antiquewhite;
+} */
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  font-weight: 800;
+  margin: 2rem 0;
+}
