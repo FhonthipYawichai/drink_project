@@ -14,8 +14,10 @@
     />
 
     <!-- style  -->
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style.css" />
+    <!-- js  -->
+    <script src="index.js"></script>
+
     <title>index</title>
   </head>
 
@@ -38,7 +40,9 @@
         <tbody>
           <tr class="table-list">
             <th scope="row">1</th>
-            <td>Coffee</td>
+            <td>
+              <p id="de_drink"></p>
+            </td>
             <td>90</td>
             <td>
               <button type="button" class="btn btn-success">Add</button>
@@ -50,7 +54,7 @@
               <button type="button" class="btn btn-danger">Delete</button>
             </td>
           </tr>
-          <tr>
+          <!-- <tr>
             <th scope="row">2</th>
             <td>Water</td>
             <td>20</td>
@@ -91,9 +95,24 @@
             <td>
               <button type="button" class="btn btn-danger">Delete</button>
             </td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </div>
+
+    <h1>Try js</h1>
+
+    <h1 id="demo"></h1>
+
+    <script>
+      const cars = ["BMW", "Volvo", "Saab", "Ford"];
+      const i = 0; // initialized here
+      const text = "";
+      for (; cars[i]; ) {
+        text += "We have" + cars[i];
+        i++; // it will handle increment
+      }
+      document.getElementById("demo").innerHTML = text;
+    </script>
   </body>
 </html>

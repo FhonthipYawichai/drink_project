@@ -13,3 +13,8 @@ body {
   font-weight: 800;
   margin: 2rem 0;
 }
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
